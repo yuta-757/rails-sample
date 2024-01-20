@@ -28,3 +28,10 @@ Things you may want to cover:
 ``` bash
 docker exec -it rails_app bash
 ```
+マイグレーション
+``` bash
+rails db:create
+rails db:migrate
+rails db:seed
+rails db:migrate:down
+```
